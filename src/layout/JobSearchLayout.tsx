@@ -24,7 +24,7 @@ const JobSearchLayout = ({children}:Prop) =>{
         <div
         className="wrapper ovh"
         >
-  <div className="preloader"></div>
+  {/* <div className="preloader"></div> */}
   
   {/* <!-- Main Header Nav --> */}
   <header className="header-nav nav-innerpage-style main-menu">
