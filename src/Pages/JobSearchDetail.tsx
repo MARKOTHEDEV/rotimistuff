@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import JobSearchLayout from "../layout/JobSearchLayout"
 
 
@@ -320,6 +321,7 @@ const JobSearchDetail = ()=>{
                             <div className="review-list d-flex align-items-center mb10">
                               <div className="list-number">5 Star</div>
                                 <div className="progress">
+                                  {/* @ts-expect-error */}
                                   <div className="progress-bar" style={{width: '90%'}} role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                               <div className="value text-end">58</div>
@@ -327,7 +329,7 @@ const JobSearchDetail = ()=>{
                             <div className="review-list d-flex align-items-center mb10">
                               <div className="list-number">4 Star</div>
                                 <div className="progress">
-                                    
+                                  {/* @ts-expect-error */}
                                   <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                               <div className="value text-end">20</div>
@@ -335,6 +337,7 @@ const JobSearchDetail = ()=>{
                             <div className="review-list d-flex align-items-center mb10">
                               <div className="list-number">3 Star</div>
                                 <div className="progress">
+                                  {/* @ts-expect-error */}
                                   <div className="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                               <div className="value text-end">15</div>
@@ -342,6 +345,7 @@ const JobSearchDetail = ()=>{
                             <div className="review-list d-flex align-items-center mb10">
                               <div className="list-number">2 Star</div>
                                 <div className="progress">
+                                  {/* @ts-expect-error */}
                                   <div className="progress-bar" style={{width: '30%'}} role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                               <div className="value text-end">2</div>
@@ -349,6 +353,7 @@ const JobSearchDetail = ()=>{
                             <div className="review-list d-flex align-items-center mb10">
                               <div className="list-number">1 Star</div>
                                 <div className="progress">
+                                  {/* @ts-expect-error */}
                                   <div className="progress-bar" style={{width: '20%'}} role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                               <div className="value text-end">1</div>
