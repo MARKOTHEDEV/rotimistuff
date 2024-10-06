@@ -11,6 +11,7 @@ import Dashboard from "./Pages/DashBoard";
 import AddService from "./Pages/AddService";
 import ManageService from "./Pages/ManageService";
 import Proposals from "./Pages/Proposal";
+import Register from "./Pages/Register";
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/signin",
     element: <SignIn/>,
+  },
+  {
+    path: "/signup",
+    element: <Register/>,
   },
   {
     path: "/membership",
