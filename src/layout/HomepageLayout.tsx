@@ -28,7 +28,7 @@ const HomepageLayout = ({children}:Prop)=>{
     return (
         <div>
 <div className="wrapper ovh">
-  <div className="preloader"></div>
+  {/* <div className="preloader"></div> */}
   <section className="header-top-home11 pt10 pb10">
     <div className="container">
       <div className="row">

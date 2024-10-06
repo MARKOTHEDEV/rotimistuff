@@ -6,7 +6,7 @@ const DashBoardLayout = ({children}:Prop)=>{
     return (
         <div>
 <div className="wrapper">
-  <div className="preloader"></div>
+  {/* <div className="preloader"></div> */}
   
   {/* <!-- Main Header Nav --> */}
   <header className="header-nav nav-innerpage-style menu-home4 dashboard_header main-menu">
