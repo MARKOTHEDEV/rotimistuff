@@ -10,6 +10,7 @@ import MemeberShipPlan from "./Pages/MemberShipPlan";
 import Dashboard from "./Pages/DashBoard";
 import AddService from "./Pages/AddService";
 import ManageService from "./Pages/ManageService";
+import Proposals from "./Pages/Proposal";
 
 
 
@@ -48,8 +49,10 @@ const router = createBrowserRouter([
     path: "/dashboard/manage-service",
     element: <ManageService/>,
   },
-
-  
+  {
+    path: "/dashboard/proposals",
+    element: <Proposals/>,
+  },
   
 ]);
 
